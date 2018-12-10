@@ -1,10 +1,14 @@
+[TOC]
+
 ## 前言
 
 [![build status](https://secure.travis-ci.org/maxcountryman/flask-login.png?branch=master)](https://travis-ci.org/#!/maxcountryman/flask-login)
 
 用Flask框架，`SQLalchemy`,`SQlite` ,` Bootstrap` ,`Pyserial`搭建一个温度监控系统。
 
-![](https://img2018.cnblogs.com/blog/720033/201812/720033-20181210181613306-84648161.png)
+结构示意图：
+![](https://img2018.cnblogs.com/blog/720033/201812/720033-20181210182519634-1172375356.png)
+
 
 ### 项目前提 ：
 
