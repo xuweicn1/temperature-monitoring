@@ -24,7 +24,7 @@ def background_thread():
     count = 0
     while True:
         socketio.sleep(10)
-        r = BT809().feed('8181521B')
+        r = BT809().get('8181521B')
         r[0],r[1] = r[0]/10,r[1]/10
         t = time.strftime('%H:%M:%S', time.localtime()) # 获取系统时间
         socketio.emit('server_response',{'data': [t] + r, 'count': count},namespace='/test')

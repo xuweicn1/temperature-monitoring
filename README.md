@@ -37,17 +37,20 @@
 
 ## 版本更新
 
-### 当前版本：v0.1
+### 版本：v0.1
 
-### 更新`models.py`
-
-解决错误：
+1. 更新`models.py`解决错误：
 
 ```
 struct.error: unpack requires a bytes object of length 8
 ```
 
-### 更新`views.py`
+2. 更新`views.py`
 
 BT809()不再计算，返回原值
 计算放在`views.py`
+
+
+### 版本：v0.2
+
+重构Bt809()方法
