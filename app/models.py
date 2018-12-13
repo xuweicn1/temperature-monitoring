@@ -26,12 +26,10 @@ class BT809():
   def feed(self,ord):
         bt = BT809()
         fd = bt.get(ord)
-        # if len(fd) > 0:
-        if fd != None:
+        if len(fd) == 8:
           r = list(bt.upk(fd))
         else:
           fd = bt.get(ord)
-        r[0],r[1] = r[0]/10,r[1]/10
         return r
 
 
